@@ -1,0 +1,40 @@
+header {
+  border: 1px solid black;
+  display: block;
+  vertical-align: top;
+  text-align: left;
+
+}
+
+aside {
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  width: 30%;
+}
+
+aside p {
+  text-align: left;
+}
+
+aside img {
+  border: 1px solid black;
+  margin-left: 70%;
+  height: 100px;
+  vertical-align: top;
+  width: 100px;
+
+}
+
+ul li {
+  text-align: left;
+}
+
+.main {
+  border: 1px solid black;
+  display: block;
+  float: left;
+  margin-top: 40px;
+  text-align: left;
+  width: 63%;
+}
