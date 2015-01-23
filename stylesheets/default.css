@@ -18,13 +18,13 @@ header a img {
 
 h1 {
   display: inline-block;
-  font-family: 'Bree Serif', serif;
-  font-style: strong;
+  position: relative;
+  bottom: 20px;
+
 }
 
 h4 {
-  font-family: 'Bree Serif', serif;
-  font-style: strong;
+
   margin-top: 0;
 }
 
