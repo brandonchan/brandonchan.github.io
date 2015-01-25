@@ -1,13 +1,15 @@
-* {
-  background: #F1ECC1;
+*{
   font-family: Verdana;
 }
 
+
 header {
+  background: #64696A;
   border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
   display: block;
   height: 10em;
-  width: 100%;
+  width: 99%;
 }
 
 header a img {
@@ -29,7 +31,9 @@ h4 {
 }
 
 section {
+  background: #64696A;
   border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
   display: inline-block;
   left:5px;
   margin-top: 1em;
@@ -38,7 +42,9 @@ section {
 }
 
 aside {
+  background: #64696A;
   border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
   display: inline-block;
   margin-top: 1em;
   position: absolute;
@@ -47,16 +53,23 @@ aside {
 
 }
 
+aside h2 {
+  margin-left: 1em;
+}
+
 img#profile {
 
   height: 150px;
+  margin-left: 3em;
   width: 150px;
 }
 footer {
+  background: #64696A;
   border: 1px solid black;
-  bottom: 0;
+  bottom: 5px;
+  box-shadow: 10px 10px 5px #888888;
   display: block;
   margin-top: 1em;
   position: absolute;
-  width: 100%;
+  width: 99%;
 }
