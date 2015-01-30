@@ -1,21 +1,38 @@
-*{
-  background: #5BB082;
-}
-header {
-  border: 1px solid black;
-  display: block;
-  vertical-align: top;
-  text-align: left;
+/**{*/
+  /*background: #5BB082;*/
+/*}*/
 
+main {
+  font-family: Verdana;
+}
+
+header {
+  border: 1px double black;
+  display: block;
+  font-family: 'Play', sans-serif;
+  vertical-align: top;
+  text-align: center;
+
+}
+
+table {
+  border: 3px solid black;
+  margin: 1em;
+  position: relative;
+  right: 10px;
+  top: 1em;
+  text-align: center;
+  width: 99%;
+  font-family: 'Play', sans-serif;
 }
 
 aside {
-
-  border: 1px solid black;
+  /*border: 1px solid black; take out border*/
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 40px;
   float: right;
-  width: 30%;
+  /*width: 30%; temp width until more about me?*/
+  width: 20%;
 }
 
 aside p {
@@ -23,11 +40,11 @@ aside p {
 }
 
 aside img {
-  border: 1px solid black;
-  margin-left: 70%;
-  height: 100px;
+  /*border: 1px solid black;*/
+  margin-left: 0%;
+  height: 200px;
   vertical-align: top;
-  width: 100px;
+  width: 200px;
 
 }
 
@@ -41,5 +58,9 @@ ul li {
   float: left;
   margin-top: 40px;
   text-align: left;
-  width: 63%;
+  width: 70%;
+}
+
+.main p b {
+  text-align: center;
 }
