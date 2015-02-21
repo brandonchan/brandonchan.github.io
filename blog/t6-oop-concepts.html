@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Bloggin</title>
+  <title>Brandon's Technical Blog</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
   <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
@@ -71,12 +71,25 @@ My Other Blog Entries
 </aside>
 
 <div class="main">
-  <h2>Stereo</h2>
+  <h2>Blocs, Procs, and Lambdas</h2>
   <h3>Week 5</h3>
+    <h3>Blocs</h3>
+      <p>
+        Blocks are not objects.  They are arguments that are used with methods such as #each and #map.  They are contained with "{}" squiggly brackets  and usually defined like.
+      </p>
+        <img src="../imgs/bloc.png">
+    <h3>Procs</h3>
+      <p>Procs are also known as procedures.  Unlike blocks, procs are objects. You can create them like you create a class.new.  With the proc, you call a bloc in order to call your procedure.  It's very similar on how you can call a block with the #each and #map methods.  It's similar to using a method with a block.  When the proc is called, the block will run and output the result. As you can see it runs very similar to a method when called in this class.</p>
+        <img src="../imgs/procs.png">
+    <h3>Lambdas</h3>
+      <p>Lambdas are very similar to procs.  A good example is that they are procs that check for argument errors.  Unlike procs, they can engage other arguments while procs only initiate the items in the blocs associated with them.  Unlike procs, lambdas can use return values and will come up with ArgumentErrors when methods have incorrect amount of arguments. This last example was taken from tutsplus.  It shows how procs only run the code in the bloc versus lambda which works the return value.</p>
+        <img src="../imgs/lambda.png">
 
-    <p>
-    </p>
+<h4>Some additional references I used for this blog</h4>
+<a href="http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/">Adam Waxman's Technical Blog</a>
+<br><a href="http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures">Erik Trautman's Blog</a>
 
+<br><a href="http://code.tutsplus.com/tutorials/ruby-on-rails-study-guide-blocks-procs-and-lambdas--net-29811">tutsplus.com</a>
 
 </div>
 
